@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import com.spring.mongoDB.model.Comments;
 
 @Repository
-public interface CommentsRepo  extends MongoRepository<Comments, Long>{
+public interface CommentsRepo  extends MongoRepository<Comments, String>{
 
 	
 }
