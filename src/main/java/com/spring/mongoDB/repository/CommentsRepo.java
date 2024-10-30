@@ -8,4 +8,5 @@ import com.spring.mongoDB.model.Comments;
 @Repository
 public interface CommentsRepo  extends MongoRepository<Comments, Long>{
 
+	
 }
